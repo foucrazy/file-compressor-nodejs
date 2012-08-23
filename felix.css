@@ -1,0 +1,932 @@
+/* CSS Document */
+
+
+/* ESTILOS HEADER Y FOOTER*/
+
+.header, #footer, .identificador{
+	font-size:1.2em;
+	width:100%;
+	text-align:center;
+	background-color:#474747;
+	filter: alpha(opacity=90);
+	opacity: 0.9;
+	position:relative;	
+	float:left;
+	left:0em;
+}
+
+#header{top:0em;}
+#footer{bottom:0em;}
+
+.contentHeader{
+	width:75.3em;
+	margin: 0 auto;
+	color:#fff;
+}
+
+#header #logo{float:left;padding:0.7em;}
+
+.cabRight{float:right;position:relative;padding-left:8em;}
+
+.vcard{
+	padding: 1.4em 1em 0em 0em;
+	float:right;}
+
+.vcard span.desc{
+	float:left;
+	line-height:2.5em;
+	font-size:0.9em;
+	word-spacing:-1px;
+	background-image:url('../images/flechaSepGris1.png');background-repeat:no-repeat;background-position:100% 50%;
+	padding-right:1.1em}
+	
+.vcard .tel{
+	font-size:2.1em;
+	font-weight:bold;
+	line-height:1em;
+	padding-left:0.3em;}
+
+.identificador{
+	float:right;
+	float:left;
+	width:99.05%;
+	clear:both;
+	text-align:right;
+	padding-right:1%;
+	padding-bottom:1em;
+}
+	
+.identificador span{
+	float:right;
+	background-color:#666;
+	padding:0.5em;
+	font-size:0.8em;
+	margin-right:1em}
+	
+.identificador strong{color:#cbcbcb}
+
+#header .idiomas{
+	float:left;
+	font-size:0.8em;
+	left:0em;top:1.5em;position:absolute;
+	height:1.5em;
+	overflow:hidden;
+	background-color:#474747;background-image:url('../images/icoIdiomas.png');background-repeat:no-repeat;background-position:top left;
+	margin-top:0.6em;
+	padding-left:2.6em;padding-top:0.5em;}
+	
+#header .idiomas li{line-height:1.5em;width:100%;text-align:left;}
+#header .idiomas li a{text-decoration:none;color:#fff}
+
+#footer{
+	width:100%;
+	float:left;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#474747;
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+	position:relative;bottom:0em;
+	font-size:1.6em;
+}
+
+.contentFooter{
+	font-size: 100%;
+	width:86.2em;
+	position:static;
+	color:#fff;
+	margin-top:0.3em;
+	font-size:62.5%;
+	margin-left:auto;
+	margin-right:auto;
+	filter: alpha(opacity=100);
+	opacity: 1;
+	position:relative;
+}
+
+.contentFooter p{text-align:left;padding-top:1em}
+
+.contentFooter dl{	
+	float:left;
+	min-height:14em;
+	margin-right:2em;
+	text-align:left;
+	width:auto;
+	font-size:1.1em;
+	padding-right:0.5em;
+}
+
+.contentFooter dl dt{
+	color:#fff;
+	font-weight:bold;
+	font-size:1.1em;
+	line-height:1.8em;
+	
+
+}
+
+.contentFooter dl ul li{
+	display:list-item;
+	color:#fff;
+	line-height:1.4em;
+	background-image:url('../images/bulletFooter.gif');
+	background-position:left;
+	background-repeat:no-repeat;
+	padding-left:0.5em;
+}
+
+.contentFooter dl ul li.special{background-image:none;border:1px solid #fff;width:auto;margin-top:0.3em}
+
+.contentFooter li a{
+	color:#fff;
+	text-decoration:none;
+}
+
+/* FIN ESTILOS HEADER Y FOOTER */
+
+.botonNaranjaC{
+	border:1px solid #fff;	
+	color:#fff;
+	font-size:0.8em;font-weight:bold;
+	float:left;
+	padding:0.4em 0.5em 0.4em 0.5em;
+	text-decoration:none;
+	background-image:url('../images/backBotonNaranjaC.png');background-color:#a23701;}
+	
+.botonNaranjaR{
+	background-image:url('../images/backBotonNaranjaR.png');background-repeat:repeat-x;background-color:#f1d448;background-position:bottom;
+	color:#fff;
+	font-size:1.5em;font-weight:bold;
+	-moz-border-radius: 13px;
+   -webkit-border-radius: 13px;
+ 	box-shadow: 0px 1px 3px #ccc;
+	border:1px solid #de9c2e;
+	padding:0 11px 0 11px;
+	cursor:pointer;
+	text-decoration:none;
+	line-height:2em !important;
+}
+
+.radius23{-moz-border-radius: 23px !important;-webkit-border-radius: 23px !important;}
+.botonGris{background-color:#999;background-image:url('../images/backBtnGris.png');border:1px solid #c9c9c9}
+.botonRojo{background-color:#d14f4f;background-image:url('../images/backBtnRojo.png');border:1px solid #c9c9c9}
+.botonVerde{
+	background-image:url('../images/backBotonVerde.png');background-repeat:repeat-x;background-color:#4dcc4b;background-position:bottom;
+	color:#fff;
+	font-size:1.5em;font-weight:bold;
+	-moz-border-radius: 13px;
+   -webkit-border-radius: 13px;
+ 	box-shadow: 0px 1px 3px #ccc;
+	border:1px solid #de9c2e;
+	padding:0 11px 0 11px;
+	cursor:pointer;
+	text-decoration:none;
+	line-height:2em !important;
+}
+
+.botonNaranjaD{
+	background-image:url('../images/backBtnPagoTarjeta.png');background-repeat:repeat-x;background-color:#4dcc4b;background-position:bottom;
+	color:#fff;
+	font-weight:bold;
+	-moz-border-radius: 6px;
+   -webkit-border-radius: 6px;
+ 	box-shadow: 0px 1px 3px #ccc;
+	border:1px solid #de9c2e;
+	padding:0 11px 0 11px;
+	cursor:pointer;
+	text-decoration:none;
+	line-height:2em !important;
+}
+
+#botonPago{font-size:2em;}
+#botonPago strong{
+	background-image:url('../images/icoTarjetas.png');background-repeat:no-repeat;background-position:right;padding-right:2em;
+}
+
+.flr{float:right !important}
+.fl{float:left}
+.fs1{font-size:1em !important}
+.mgl1{margin-left:1em !important}
+.tal{text-align:left !important}
+.pdl1{padding-left:1em !important}
+.w100{width:100%;}
+.pago{float:left;text-align:center;width:100%;}
+.guardar{background-image:url('../images/icoGuardar.png');background-repeat:no-repeat;background-position:right;padding-right:2em;}
+em{font-size:1.1em;font-weight:normal;float:left}
+
+.botonSeleccionar{
+	position:absolute;
+	right:-1.6em;
+	bottom:0.2em;
+	font-size:1.5em;text-decoration:none;
+	padding-right:1.9em;
+	color:#fff;
+	z-index:999;
+	width:7.5em;
+	background-image:url('../images/picoVerde.png');background-repeat:no-repeat;background-position:right;curson:pointer}
+	
+.botonSeleccionar strong{
+	width:100%;
+	line-height:2em;
+	float:left;
+	padding-left:1.2em;
+	background-color:#94bf18;background-image:url('../images/carritoBoton.png');background-position:5px;background-repeat:no-repeat;cursor:pointer}
+	
+.separador{
+	background-image:url('../images/backSeparador.png');
+	padding-bottom:25px !Important;
+	float:left;
+	width:100%;
+}
+
+.nota{width:100%;float:left;font-size:1.1em;line-height:1.4em;text-align:left;margin-top:1em;margin-bottom:1em}
+
+
+/* CONTENEDORES PRINCIPALES */
+
+#container{
+	/*overflow:hidden;*/
+	width:87.2em;
+	margin: 0 auto;
+	padding:2.5em 1.4em 0 1.4em;
+	background-image:url('../images/trama-bg.gif');background-color:#fff;background-position:top;
+	min-height:100%;
+	float:none;}
+	
+#content{
+	width:84.4em;
+	background-color:#fff;
+	padding:0 1.4em 1.4em;
+	float:left;
+	box-shadow: 0px 1px 3px #ccc;border:1px solid #b8b8b8;
+}
+
+/* FIN CONTENEDORES PRINCIPALES */
+
+/* ESTILOS MENÚ PRINCIPAL */
+
+#nav{
+	float:left;	
+	height:3.8em;width:100%;
+	position:relative;
+	box-shadow: -0px 1px 3px #ccc;
+	margin-top:1.5em;
+}
+
+#nav li{
+	float:left;
+	display:inline;
+	background-color:#fff;
+	color:#fff;font-size:1.2em;text-align:center;
+	min-width:7.6em;
+	*width:7.6em;
+	line-height:2.9em;height:3.1em;
+	box-shadow: 1px -1px 3px #ccc;border:1px solid #b8b8b8;border-bottom:0em;margin-right:1px;padding:1px;
+}
+
+#nav li a{text-decoration:none;color:#fff;width:100%;height:100%;background-color:#8c8c8c;float:left;}
+
+.pestBuscador a{background-color:#de9701 !important}
+.pestActive a{background-color:#fff !important;color:#333 !important;font-weight:bold}
+.pestRight{float:right !important;min-width:8.6em !important;}
+.bandaRoja{background-color:#fe2b34;color:#fff;text-align:center;border-top:1px solid #dd9600;width:100%;float:left;line-height:1.5em}
+h2, h3{font-size:1.7em;font-weight:bold;background-position:top left;background-repeat:no-repeat;text-align:left;padding-left:1.8em;line-height:1.8em;margin-top:1em;}
+h2{margin-top:0em}
+h3{float:left;width:100%;}
+
+.titDesglose{background-image:url('../images/icoDesglose.png')}
+.titComision{background-image:url('../images/icoComision.png');}
+.titFecha{background-image:url('../images/icoCalendario.png');}
+.titResultados{background-image:url('../images/icoResultados.png');float:left;padding-left:2.1em;margin-top:3px;background-position:0 50%}
+.titCancelacion{background-image:url('../images/icoCancelacion.png')}
+.titCamarotes{background-image:url('../images/icoCamarotes.png')}
+.titSeguros{background-image:url('../images/icoSeguros.png');padding-left:2.5em}
+.titVuelos{background-image:url('../images/icoTitVuelos.png');padding-left:2.5em}
+.titDatosPasajeros{background-image:url('../images/icoDatosPasajeros.png');padding-left:2.5em;padding-top:0.3em}
+.titResumenCrucero{background-image:url('../images/icoBarco.png');padding-left:3em;padding-top:0.3em}
+.titBuscar{background-image:url('../images/icoBuscar.png');padding-top:0.3em;margin-top:0.5em;}
+.selCamarote select{width:26em;font-size:1em;border:1px solid #848484;color:#848484}
+
+/* FIN ESTILOS MENÚ PRINCIPAL */
+
+/* ESTILOS MIGAS DE PAN */
+#breadcrumbs{
+	float:left;	
+	width:100%;
+	border-top:2px solid #999;
+	margin-top:2em;
+	position:relative;
+}
+
+#breadcrumbs li{
+	float:left;
+	display:inline;
+	font-size:0.9em;text-align:center;
+	line-height:2.9em;height:3.1em;	
+	position:relative;top:-2px;
+	border-top:2px solid #999;
+	padding:1.5em 6.5em 0px 0em;
+}
+
+#breadcrumbs li a{color:#333;text-decoration:none}
+#breadcrumbs li strong{position:absolute;top:-1.2em;font-weight:normal;font-size:1.3em;
+background-image:url('../images/fondoGrisPasos.png');width:4.4em;height:4.4em;background-repeat:no-repeat;float:left;padding:0em;line-height:2.4em;text-align:left;padding-left:0.9em}
+
+#breadcrumbs li.init{padding-left:0px}
+#breadcrumbs li.last{padding-right:0px;float:right}
+#breadcrumbs li.last strong{right:0em;background-position:top right;text-align:right;padding-right:0.9em}
+#breadcrumbs li.hecho{border-top:2px solid #de9700;}
+#breadcrumbs li.hecho strong{background-image:url('../images/fondoNaranjaPasos.png');}
+#breadcrumbs li.active a{color:#de9700}
+#breadcrumbs li.active strong{background-image:url('../images/fondoPasosAct.png');top:-2.2em;color:#fff}
+
+/* FIN ESTILOS MIGAS DE PAN */
+
+/* ESTILOS BUSCADOR GENERAL */
+
+#buscador{width:33.8em;position: relative;float:left;z-index:999;}
+#buscador form{position:absolute;background-color:#fff;border:2px solid #de9701;left:0.2em;text-align:left;padding:0.8em}
+#buscador label, #buscador select{width:100%;float:left;font-size:1.7em;color:#666; }
+#buscador label{padding-bottom:0.2em;font-weight:bold}
+#buscador select{font-size:1.5em;margin-bottom:0.6em;}
+#buscador span{float:left;font-size:1.2em;}
+#buscador span strong{color:#de9701;font-size:2.2em}
+
+/* FIN ESTILOS BUSCADOR GENERAL */
+
+/* ESTILOS MENSAJES */
+
+.msg{float:left;border:1px solid #addf70;background-color:#f6fcee;width:100%;text-align:center;font-size:1.2em;margin-bottom:1em;padding-bottom:0.5em;padding-top:0.2em}
+.msg .tit{font-weight:bold;clear:both;line-height:2em}
+.msg p{line-height:1.5em;width:95%;}
+.aviso{border:1px solid #ffd284;background-color:#fefcef;}
+.error{border:1px solid #fe0000;background-color:#f4e4e5;}
+
+/* FIN ESTILOS MENSAJES */
+
+/* ESTILOS FORMULARIOS */
+.interForm{text-align:center;width:100%;float:left;margin-bottom:1em;margin-top:1.1em}
+.interForm fieldset{float:left;background-repeat:no-repeat;padding-left:2em;padding-top:0.5em}
+.interForm fieldset.turnoCena{background-image:url('../images/icoTurnoCena.png')}
+.interForm fieldset.pasajeros{background-image:url('../images/icoPasajeros.png');padding-left:5.5em;line-height:2.5em}
+.interForm label{
+	padding-left:1.2em;
+	background-image:url('../images/backFlechaDoble.png');background-position:0% 0.5em;background-repeat:no-repeat;
+	font-size:1.2em;font-weight:bold;
+	margin-left:1em}
+	
+.interForm select{width:auto;font-size:1.2em;border:1px solid #848484;color:#848484;padding:0em;margin:0em}
+
+.formPasajeros {border-top:0px;float:left;width:100%;text-align:left;}
+
+.formPasajeros fieldset, .formPasajeros div{
+	width:100%;
+	background-image:url('../images/backBloque.png');background-position:bottom;background-repeat:repeat-x;
+	-webkit-box-shadow: -1px 2px 2px 0px #ccc;
+    -moz-box-shadow: -1px 2px 0px 0px #ccc;
+	padding-top:2.2em;padding-bottom:0.7em;
+	float:left;
+	position:relative;
+	margin-bottom:1.2em;
+	border:1px solid #999;border-top:0px;}
+	
+.formPasajeros div{padding-top:3em;}
+	
+.formPasajeros legend, .formPasajeros span.tit{width:100.3%;text-align:left;font-size:1.2em;border-bottom:1px solid #999;background-color:#fff;position:absolute;top:0px;left:-1px;padding-bottom:1px;padding-top:0.3em}
+.formPasajeros legend strong, .formPasajeros span.tit strong{border:1px solid #999;width:auto;padding:0.4em;line-height:1.8em;background-color:#ffe294}
+.formPasajeros label, .cajaDetalle label{float:left;text-align:left;font-size:1.3em;width:auto;padding:1.4em 0.1em 0em 0em;}
+.formPasajeros input, .formPasajeros select, .cajaDetalle fieldset input, .cajaDetalle fieldset select{float:left;clear:both;width:95%;margin-top:0.3em;border:1px solid #888}
+.formPasajeros .fecha{width:11em}
+.formPasajeros .tratamiento{margin:0.3em 0.8em 0em 0.8em;padding-top:2em !important}
+.formPasajeros .tratamiento select{width:5.7em;}
+.formPasajeros .nacionalidad{padding-left:7.5em;padding-right:0em;float:left;width:14.3em}
+.formPasajeros .nacionalidad select{width:13.2em}
+.formPasajeros .numPasaporte{width:17.3em}
+.formPasajeros .nombre{width:15.7em}
+.formPasajeros .apellidos{width:14em}
+.formPasajeros dl{font-size:1.3em;line-height:1.45em;padding-top:0.2em;padding-left:1em;float:left;white-space:nowrap}
+.formPasajeros dt, .formPasajeros dd{float:left;}
+.formPasajeros dt{font-weight:bold;padding-right:0.3em;padding-left:1.2em;background-image:url('../images/backFlechaDoble.png');background-position:0% 0.6em;background-repeat:no-repeat;}
+.formPasajeros dd{margin-bottom:0.5em;margin-right:0.5em; margin-left:0em;}
+
+.formPasajeros fieldset fieldset{
+	float:left;
+	border:0px;
+	position:static !important;
+	width:31em;
+	margin-top:1.8em;margin-bottom:0em;
+	padding-top:0em;
+	-webkit-box-shadow: none;-moz-box-shadow: none;}
+	
+.formPasajeros fieldset fieldset legend{width:auto;position:static;text-decoration:none;border:0px}
+.formPasajeros fieldset fieldset select{width:6em;float:left;clear:none;margin-right:0.4em}
+.formPasajeros fieldset fieldset .dia{width:4.2em}
+.formPasajeros fieldset fieldset .mes{width:10.1em}
+.formPasajeros fieldset fieldset .anio{width:7.3em}
+
+.formPasajeros fieldset.checks{float:left;text-align:left;margin:0;padding:0;width:100%;background:none;position:static;-webkit-box-shadow: none;-moz-box-shadow: none;border:0}
+.formPasajeros fieldset.checks input{float:left !important;margin:0em !important;padding:0em !important;border:0px}
+.formPasajeros fieldset.checks label{padding:0em;font-weight:bold;font-size:1.3em}
+.formPasajeros fieldset.checks a{padding-left:0.3em;float:left}
+
+.form50{width:100%;background-image:none !important;border:0px !important;-webkit-box-shadow: none !important;-moz-box-shadow: none !important;}
+.form50 fieldset{width:40% !important;float:left;font-size:1.2em;font-weight:bold;background-image:none !important;text-align:left;padding-top:0em !important;margin-top:0em !important}
+.form50 input{width:40%;float:left;clear:none}
+.form50 label{float:left;padding-top:0.3em;}
+.form50 fieldset.fr{border-left:1px dotted #ccc;width:56% !important;float:right !important;padding-left:3%;text-align:right !important}
+.form50 fieldset.fr input{width:89%}
+.form50 fieldset.fr em{font-size:0.9em;}
+/* FIN ESTILOS FORMULRIOS */
+
+/* ESTILOS CAJA DE PRECIOS INFERIOR */
+
+.precioAbajo{width:100%;border:3px solid #dd9701;text-align:right;float:left;padding:0.6em 0em 0.6em;margin-top:1.2em}
+.precioAbajo span{width:auto;float:right;line-height:2em;font-weight:bold;clear:both;font-size:1.6em;padding-right:0.7em}
+.precioAbajo span strong{font-size:1.6em}
+.precioAbajo span.pagoPull strong{color:#666}
+.precioAbajo span.pagoPull a{padding-right:0.4em}
+
+/* ESTILOS GRID */
+.portlet-journal-content .journal-content-article{
+	clear:none;
+	float:none;
+}
+
+.portlet-journal-content .journal-content-article:after{
+	clear:none;
+	float:none;
+}
+
+.portlet-borderless-container{
+	min-height:0em;
+}     
+
+.grid{
+	width:88em;
+	float:left;
+	overflow:hidden;
+	margin-bottom:1em;
+}
+
+.grid .module{
+	font-size:1.1em;
+	float:left;
+	padding-top:5px;
+	padding-right:3px;
+	padding-left:3px;
+	margin-right:1.35em;margin-bottom:1.5em;
+	border:1px solid #999;
+	width:23.9em;
+	height:15.7em;
+	overflow:hidden;
+	background-image:url('../images/backBloque.png');background-position:bottom;background-repeat:repeat-x;
+	-webkit-box-shadow: -1px 2px 2px 0px #ccc;
+    -moz-box-shadow: -1px 2px 0px 0px #ccc;
+}
+
+.grid .flr{margin-right:4.28em;}
+.grid .ThreeCols{width:83.5em !important;}
+.grid .TwoCols{width:50.7em !important;}
+.grid .ThreeRows{height:56.8em !important;}
+.grid .TwoRows{height:37.3em !important;}
+
+.grid img{float:left}
+.grid p{float:right;width:100%;text-align:left;font-size:1.1em;line-height:1.3em;margin-bottom:0.4em}
+.grid ul{float:right;width:100%;}
+.grid li{
+	background-image:url('../images/flechaListado.gif');background-position:0% 0.4em;background-repeat:no-repeat;
+	text-align:left;
+	float:left;
+	width:97.4%;
+	padding-left:0.7em;padding-bottom:0.5em;
+	margin-bottom:0.5em;
+	font-size:1.1em;
+	border-bottom:1px dotted;}
+	
+.grid li .flr{
+	margin-right:5px;
+}
+	
+/*.grid div div{width:97%;padding:0em;float:left;margin:5px 3px 5px 3px;height:auto;border:0px;overflow:hidden;background-image:none;-webkit-box-shadow: none; -moz-box-shadow: none;font-size:1.1em}*/
+.grid h2{width:100%;font-size:1.6em;font-weight:normal;letter-spacing:-1px;color:#666;float:left;text-align:left;line-height:1.1em;padding:0em;margin:0em;padding-bottom:0.9em}
+.imageList img, .parag img{border:1px solid #ccc;padding:2px;margin-right:0.4em}
+.imageList ul{float:right;width:53%;}
+.imageList li{border-bottom:0px !important;}
+.imageParagSup img, .image img{margin:1px !important;padding:0em !important;width:99.5% !important;position:relative}
+.imageParagSup p{
+	position:absolute;
+	bottom:-21.3em;
+	margin:0em !important;
+	float:left;
+	width:15.2em;
+	background-color:#000;
+	filter: alpha(opacity=70);opacity: 0.7;
+	color:#fff;text-align:center;font-size:1.6em;font-weight:bold}
+	
+.more{float:right;color:#e1221a;font-size:1.1em;line-height:1em;}
+
+/* FIN ESTILOS GRID */
+
+/* ESTILOS ITINERARIOS */
+#itinerario div{height:auto;}
+#itinerario .contenido{float:left;width:22.9em;padding:0.8em;margin:0px;padding-bottom:0em}
+#itinerario .contenido h3{font-size:1.2em;float:left;padding:0em;margin:0em;width:100%;}
+#itinerario h4{text-align:left;font-weight:normal;font-size:1.2em;line-height:2.4em}
+#itinerario .contenido span{width:10em;float:left;background-color:#dadada;color:#333;padding-left:0.4em;line-height:3em;}
+#itinerario .contenido span strong{color:#666}
+#itinerario .contenido .precio{width:5.6em;font-size:1.4em;background-color:#8dbb12;color:#fff;font-weight:bold;border:1px solid #de9700;line-height:2em;float:right}
+#itinerario .imageItinerario{margin-top:0.9em}
+#itinerario dl{float:left;width:100%;font-size:1.1em;margin-bottom:0em !important}
+#itinerario dt{float:left;font-weight:bold;clear:both;line-height:1.4em}
+#itinerario dd{float:left;}
+#itinerario li{float:left;width:auto;background:none;border:none;}
+#itinerario li a{text-decoration:underline;color:#333}
+#itinerario .enlaces{float:left;width:100%;background-color:#dadada;padding:0.5em 0em 0.5em 0em;margin:0em;}
+#itinerario .botonNaranjaD{margin-right:0.5em;font-size:1.2em;font-weight:normal}
+
+/* FIN ESTILOS ITINERARIOS */
+
+/* OTROS ESTILOS DE PORTADA */
+.promos50{float:left;width:99.3%;}
+.promos50 div, .promo100{width:49%;border:1px solid #999;text-align:center;float:left;-webkit-box-shadow: -1px 2px 2px 0px #ccc;-moz-box-shadow: -1px 2px 0px 0px #ccc;margin-bottom:1.5em}
+.promo100{width:99.3% !important}
+/* FIN OTROS ESTILOS DE PORTADA */
+
+/* ESTILOS BLOQUE RESUMEN*/
+.modResumen{
+	float:left;
+	width:100%;
+	border:1px solid #999;
+	-webkit-box-shadow: 1px 2px 2px 0px #ccc;
+    -moz-box-shadow: 1px 2px 2px 0px #ccc;
+	background-image:('../images/backBloque.png');
+	background-repeat:repeat-x;
+	background-position:bottom;
+	padding-bottom:0em;
+	position:relative;
+	margin-bottom:1em;
+}
+
+.modResumen img{float:left;margin:1px;}
+
+.modResumen h3, .modResumen dl{font-size:1.6em;width:53.1%;text-align:left;float:left;padding-left:0.5em;line-height:2.1em;margin-top:0em}
+.modResumen h3 strong{color:#666}
+.modResumen dl{font-size:1.3em;line-height:1.45em;padding-top:0.2em}
+.modResumen dt, .modResumen dd{float:left; margin-left:0em;}
+.modResumen dt{white-space:nowrap;clear:left;font-weight:bold;padding-right:0.3em;padding-left:1.2em;background-image:url('../images/backFlechaDoble.png');background-position:0% 0.6em;background-repeat:no-repeat;}
+.modResumen dd{margin-bottom:0.5em;}
+.modResumen dd li{float:left;padding-right:1em;line-height:1em;padding-bottom:0.4em;width:auto !important;float:left;clear:none;font-size:0.7em;padding:0em;background-image:none;}
+.modResumen dd li strong{padding-right:0.2em;}
+.modResumen dd.w100 ul{float:left;padding-left:0em}
+.modResumen dd.w100 li{line-height:1.6em;background-image:url('../images/flechaListado.gif');background-repeat:no-repeat;background-position:right;padding-right:0.7em;margin-right:0.5em;white-space:nowrap}
+.modResumen dd.w100 li strong{background-image:none;padding-left:0em}
+.modResumen ul{font-size:1.3em;padding-top:0.2em;padding-left:0.7em;float:left}
+.modResumen li strong, .modResumen li{float:left;}
+.modResumen li{float:left;clear:both;line-height:1.85em;}
+.modResumen li strong{white-space:nowrap;clear:left;font-weight:bold;padding-right:0.3em;padding-left:1.2em;background-image:url('../images/backFlechaDoble.png');background-position:0% 0.7em;background-repeat:no-repeat;}
+
+.modResumen li li{float:left;padding-right:1em;line-height:1.7em;padding-bottom:0.4em;clear:none !important;font-size:0.7em !important;}
+.modResumen li li strong{padding-right:0.2em;}
+
+.modResumen .precio{
+	position:absolute;
+	top:-9%;
+	right:-2px;
+	border:3px solid #dd9600;
+	background-color:#8cbb13;
+	color:#fff;
+	padding:4px 6px 4px 6px;
+	font-size:1.1em;
+	text-align:right;
+	width:9.5em;
+}
+.modResumen .precio strong{font-size:1.8em;float:right;padding:0em 0.2em 0em 0em;margin:0em;clear:both;display:block;width:100%;}
+
+.modResult{margin-top:2em !important}
+.modResult dl{line-height:1.85em !important}
+.modResult dt{background-position:0% 0.9em !important;}
+.modResult li a{color:#333;text-decoration:underline;padding-top:0.4em;float:left}
+.modResult .precio{height:101%;overflow:hidden}
+.modResult .moreContent{width:100%;height:100%;background-color:#ffde97;float:left;position:absolute;top:3.5em;left:0em}
+/* FIN ESTILOS BLOQUE RESUMEN*/
+
+/* ESTILOS BLOQUES SEGUROS */
+.seguros{float:left;width:31em;background-color:#f1f1f1;-webkit-box-shadow: -1px 2px 2px 0px #ccc;-moz-box-shadow: -1px 2px 2px 0px #ccc;font-size:1.3em;padding:1em 0.5em 1em 0.5em;text-align:left;margin-bottom:1.5em}
+.seguros a.infoDet{float:left;clear:both;color:#333;padding-left:1.2em;background-image:url('../images/icoInfo.gif');background-repeat:no-repeat;background-position:left;margin-top:0.7em}
+
+/* FIN ESTILOS BLOQUES DE SEGUROS */
+
+/* ESTILOS TABLAS */
+
+table{width:100%;}
+th, td{font-size:1.1em;line-height:2em;border:1px solid #ccc;padding:3px}
+thead th{text-align:center;background-color:#999;color:#fff;}
+/*td{background-color:#fff;}*/
+table a{color:#333;float:left;padding-left:6%;line-height:2em;height:100%;width:94%;text-align:left;font-weight:normal}
+.activeCell{background-color:#a9e172}
+table label, table strong{width:99.1%;height:100%;float:left;}
+.activeCell label, .activeCell strong, .activeCell a{border:1px solid #fff;background-color:#c4ff89;font-weight:bold;color:#333;}
+.activeCell label{color:#cd0001}
+caption{text-align:center;margin-bottom:1em;padding-top:0.5em;}
+caption strong{
+	border:1px solid #666;
+	width:auto;
+	float:none;
+	font-size:1.9em;
+	background-image:url('../images/backCaption.png');background-repeat:repeat-x;
+	padding:0.1em 0.7em 0.1em 0.7em;}
+
+.tablaActiva{position:relative;margin-bottom:3em;float:left;width:100%;}
+.tablaActiva .mesAnterior{position:absolute;line-height:2.4em;top:0;*top:-0.6em;left:19em;background-image:url('../images/flechaRec.png');background-position:left;background-repeat:no-repeat;padding-left:3em;font-size:1.1em;color:#333;text-decoration:none}
+.tablaActiva .mesSiguiente, .tablaActiva .verMasCategorias{position:absolute;line-height:2.4em;top:0;*top:-0.6em;right:19em;background-image:url('../images/flechaAv.png');background-position:right;background-repeat:no-repeat;padding-right:3em;font-size:1.1em;color:#333;text-decoration:none}
+.tablaActiva .verMasCategorias{margin-top:0.7em;position:static;float:right;background-image:url('../images/flechaAbajo.png')}
+.tablaActiva .ocultarCategorias{background-image:url('../images/flechaArriba.png')}
+.tables{float:left;width:100%;}
+.tablaDesglose, .tablaVuelos{margin-bottom:1.5em !important}
+.tablaVuelos td, .tablaVuelos th, .tablaDesglose td, .tablaDesglose th{line-height:1.1em}
+.tablaVuelos .origen, .tablaVuelos .destino{background-image:url('../images/icoAvionSalidaP.png');background-position:0.2em;background-repeat:no-repeat;text-align:center}
+.tablaVuelos .destino{background-image:url('../images/icoAvionRegresoP.png')}
+.tablaVuelos caption{text-align:left;font-size:1.2em;line-height:1em;margin-bottom:0.4em}
+.tablaVuelos caption strong{background-image:none;line-height:1em;border:0px;color:red;font-weight:bold;font-size:1em;padding:0em;margin:0em}
+
+.tablaDesglose tbody th, .tablaDesglose tbody td{width:auto;font-weight:normal;text-align:left;}
+.tablaDesglose tbody th strong, .tablaDesglose tbody td strong{width:auto;float:left;clear:none;}
+.tablaDesglose tbody th strong{padding-left:1.2em;padding-right:0.3em;background-image:url('../images/backFlechaDoble.png');background-position:0% 0.4em;background-repeat:no-repeat;}
+.tablaDesglose tbody td{text-align:center}
+.tablaDesglose tbody tr:nth-child(even) {background-color: #ebebeb !important}
+.tablaDesglose tbody tr:nth-child(odd) {background-color: #FFF !important} 
+.totalTabla{text-align:right !important;background-color:#fef4db;font-size:1.3em;line-height:1.5em !important}
+.totalTabla strong{float:none !important}
+.listadoReservas td{line-height:1.1em !important}
+.listadoReservas td a{line-height:1em;color:#cd0001}
+
+/* FIN ESTILOS TABLAS*/
+
+/* ESTILOS PAGINACION */
+
+.paginacion{width:100%;float:left;text-align:right;font-size:1.2em;padding-top:0.4em;margin-bottom:0.8em}
+/*.paginacion form{width:auto;float:right}*/
+.paginacion select{border:1px solid #848484;}
+/*.paginacion ul{float:right;margin-left:1em;padding-top:0.4em}
+.paginacion li{float:left;border:1px solid #666;color:#333;padding:0em 0.3em 0.1em 0.3em;margin-left:0.45em}
+.paginacion li.active{background-color:#e09700;border:1px solid #a16e01;color:#fff}
+.paginacion li.active a{color:#fff}
+.paginacion li.flecha{border:none;color:#666;font-size:1.3em;line-height:0.8em;}
+.paginacion li a{color:#333;text-decoration:none}*/
+
+#paging_container .header{float:none;width:auto;}
+#paging_container .page_navigation {float:right;margin-left:1em;}
+#paging_container .page_navigation a{padding:0 0.3em 0.1em;margin:5px 2px 2px 0.35em;color:#333333;text-decoration:none;float: left;font-size: 12px;background-color:white;border:1px solid #666666;}
+#paging_container .active_page{background-color:orange !important;color:white !important;}	
+#paging_container .page_navigation .previous_link, #paging_container .page_navigation .next_link{border:0px; font-size:1.3em;margin-top:3px;}
+#paging_container .page_navigation .more{float:none;color:black;}
+#paging_container .page_navigation .less{float:none;color:black;}
+
+/* FIN ESTILOS PAGINACIÓN */
+
+/* ESTILOS CAJA DETALLE CONFIRMACIÓN */
+.cajaDetalle{
+	float:left;
+	width:100%;;
+	border:1px solid #999;
+	-webkit-box-shadow: 1px 2px 2px 0px #ccc;
+    -moz-box-shadow: 1px 2px 2px 0px #ccc;
+	background-image:('../images/backFlechaDoble.png');
+	background-repeat:repeat-x;
+	background-position:bottom;
+	padding:0.5em 0em 0.5em 0em;
+	margin:1em 0 1em 0;
+	font-size:1.2em;text-align:left;}
+	
+.cajaDetalle p{line-height:1.5em;margin:0em 0.6em 0em 0.6em}
+.cajaDetalle .datosDetalle{width:98%;padding:0em;float:left;margin:1em 0.6em 0em 0.6em;border-top:1px dotted #ccc;text-align:center;padding-top:1em;font-weight:bold;font-size:1.1em}
+.cajaDetalle .datosDetalle div{width:auto;float:none;}
+.cajaDetalle .datosDetalle p{width:auto;float:left;text-align:left}
+.cajaDetalle .datosDetalle p strong{clear:both;background-color:#333;color:#fff;float:left;padding:0.4em;border:1px solid #ccc;font-size:1.2em}
+.cajaDetalle .datosDetalle p strong.cobrado{background-color:#669900}
+.cajaDetalle .datosDetalle p strong.pendiente{background-color:#e67300}
+.cajaDetalle .datosDetalle .formaPago{float:left;margin-top:1.5em}
+.cajaDetalle .datosDetalle .formaPago a{width:11.5em;clear:both;float:left;font-size:0.75em;font-weight:normal;background-color:#666;color:#fff;margin-top:0.3em;padding:0.2em;text-decoration:none;background-image:url('../images/backFlechaDoble.png');background-repeat:no-repeat;background-position:98%;padding-right:1em}
+.cajaDetalle form{font-size:0.8em;font-weight:normal;width:auto !important;float:left;}
+.cajaDetalle form fieldset{float:left}
+.cajaDetalle form label{padding-top:0em !important;padding-right:0em !important;}
+.cajaDetalle form .buque{width:13em;}
+.cajaDetalle form .dia{width:6em}
+.cajaDetalle form .mes{width:7em}
+.cajaDetalle form .anio{width:7em}
+.cajaDetalle .buscadorId{padding-left:0.8em}
+.cajaDetalle form .nomPass{width:20em}
+.cajaDetalle .botonNaranjaD{margin-top:0.8em;font-weight:normal}
+/* FIN ESTILOS CAJA DETALLE CONFIRMACIÓN */
+
+/* ESTILOS DE LOS FILTROS */
+.filtros{width:100%;}
+.filtros form{width:100% !important;}
+.filtros form fieldset{width:auto;float:left}
+.filtros select{width:19.3em !important}
+.filtros .izda label{padding-left:0.6em;padding-bottom:1em;padding-right:0.8em !important;padding-top:1.1em !important;font-size:1.8em;color:#666;font-weight:bold}
+.filtros .izda{float:left;width:29em;border-right:1px dotted #ccc}
+.filtros .dcha{width:33em}
+.filtros .encontrados{font-size:1.2em;float:right;clear:both}
+.filtros .encontrados strong{color:#de9701;font-size:2.2em;line-height:2em}
+.filtros .cont{padding-right:0.8em;padding-top:3em;width:21em}
+/* FIN ESTILOS DE LOS FILTROS */
+
+/* ESTILOS CARRUSEL PORTADA */
+
+.slider-wrapper{margin-bottom:1.5em}
+
+.nivoSlider {
+	position:relative;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	left:-100000px;
+	bottom:0px;
+	background:#000;
+	color:#fff;
+	opacity:0.8; /* Overridden by captionOpacity setting */
+	width:100%;
+	z-index:8;
+}
+.nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:9;
+	cursor:pointer;
+}
+.nivo-prevNav {
+	left:0px;
+}
+.nivo-nextNav {
+	right:0px;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav a {
+	position:relative;
+	z-index:9;
+	cursor:pointer;
+}
+.nivo-controlNav a.active {
+	font-weight:bold;
+}
+
+.theme-default .nivoSlider {
+	position:relative;
+	background:#fff url(loading.gif) no-repeat 50% 50%;
+    margin-bottom:50px;
+    -webkit-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    -moz-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    box-shadow: 0px 1px 5px 0px #4a4a4a;
+}
+.theme-default .nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+.theme-default .nivoSlider a {
+	border:0;
+	display:block;
+}
+
+.nivo-controlNav {
+	position:absolute;
+	right:4.2em;
+	bottom:0.6em;/* Tweak this to center bullets */
+}
+.nivo-controlNav a {
+	display:block;
+	width:22px;
+	height:22px;
+	background:url(../images/bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:3px;
+	float:left;
+}
+.nivo-controlNav a.active {
+	background-position:0 -32px;
+}
+
+.nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(../images/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+a.nivo-nextNav {
+	background-position:-30px 0;
+	right:50px;
+}
+a.nivo-prevNav {
+	left:15px;
+}
+
+.nivo-caption {
+    font-family: Helvetica, Arial, sans-serif;
+}
+.nivo-caption a {
+    color:#fff;
+    border-bottom:1px dotted #fff;
+}
+.nivo-caption a:hover {
+    color:#fff;
+}
+
+/* FIN ESTILOS CARRUSEL PORTADA */
+
+/* ESTILOS DEL SLIDER*/
+.jslider .jslider-bg i,
+.jslider .jslider-pointer { background: url(../img/jslider.png) no-repeat 0 0; }
+
+.jslider { display: block; width: 100%; height: 1em; position: relative; top: 0.6em; font-family: Arial, sans-serif; }
+.jslider table { width: 100%; border-collapse: collapse; border: 0; }
+.jslider td, .jslider th { padding: 0; vertical-align: top; text-align: left; border: 0; }
+
+.jslider table,
+.jslider table tr,
+.jslider table tr td { width: 100%; vertical-align: top; }
+
+.jslider .jslider-bg { position: relative; }
+.jslider .jslider-bg i { height: 5px; position: absolute; font-size: 0; top: 0; }
+.jslider .jslider-bg .l { width: 50%; background-position: 0 0; left: 0; }
+.jslider .jslider-bg .r { width: 50%; left: 50%; background-position: right 0; }
+.jslider .jslider-bg .v { position: absolute; width: 60%; left: 20%; top: 0; height: 5px; background-position: 0 -20px; }
+
+.jslider .jslider-pointer { width: 13px; height: 15px; background-position: 0 -40px; position: absolute; left: 20%; top: 1px; margin-left: -6px; cursor: pointer; cursor: hand; }
+.jslider .jslider-pointer-hover { background-position: -20px -40px; }
+.jslider .jslider-pointer-to { left: 80%; }
+
+.jslider .jslider-label { font-size: 9px; line-height: 12px; color: black; opacity: 0.4; white-space: nowrap; padding: 0px 2px; position: absolute; top: -18px; left: 0px; }
+.jslider .jslider-label-to { left: auto; right: 0; }
+
+.jslider .jslider-value { font-size: 9px; white-space: nowrap; padding: 1px 2px 0; position: absolute; top: -30px; left: 20%; background: #333; line-height: 28px; -moz-border-radius: 2px; -webkit-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px;background-image:url('../images/backPrecioSlider.png');background-repeat:no-repeat;width:36px;color:#fff;text-align:center }
+.jslider .jslider-value-to { left: 80%; }
+
+.jslider .jslider-label small,
+.jslider .jslider-value small { position: relative; top: -0.4em; }
+
+.jslider .jslider-scale { position: relative; top: 9px; }
+.jslider .jslider-scale span { position: absolute; height: 5px; border-left: 1px solid #999; font-size: 0; }
+.jslider .jslider-scale ins { font-size: 9px; text-decoration: none; position: absolute; left: 0px; top: 5px; color: #999; }
+
+.jslider-single .jslider-pointer-to,
+.jslider-single .jslider-value-to,
+.jslider-single .jslider-bg .v,
+.jslider-limitless .jslider-label { display: none; }
+.jslider_plastic .jslider-bg i,
+.jslider_plastic .jslider-pointer { background-image: url('../images/jslider.plastic.png'); }
+.sliderTop{width: 100%;margin-top:3.5em;}
+
+
+.sliderBot{width: 100%;margin-top:6em;float:left}
+.minSlid{float:left;width:2.2em;font-size:1.1em;padding-left:1em;color:#999;font-weight:bold;padding-top:1em}
+.maxSlid{float:left;width:2.2em;font-size:1.1em;padding-left:0em;color:#999;font-weight:bold;padding-top:1em}
+.spSlid{width: 240px; padding: 0 5px;float:left;position:static}
+.titSlid{float:left;width:100%;text-align:center;font-size:1.2em}
